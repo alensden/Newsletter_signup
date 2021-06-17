@@ -38,7 +38,7 @@ app.post("/", function(req,res){
 
         const options = {
             method: "POST",
-            auth: "user_admin:e7efb5c764b7e7885ae37c1645eef155-us6"
+            auth: "user_admin:"
         }
 
         const request = https.request(url, options, function(response){
@@ -79,7 +79,3 @@ app.listen(process.env.PORT || 3000, function(){
     console.log("Listen on 3000");
 }); 
 
-// list id 67271748d5
-///////////67271748d5
-//api key e7efb5c764b7e7885ae37c1645eef155-us6
-//////////e7efb5c764b7e7885ae37c1645eef155-us6

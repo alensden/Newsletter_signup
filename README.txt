@@ -1,0 +1,1 @@
+This is a sign up page for a news letter, emails and datais collected through Mailchimp api
